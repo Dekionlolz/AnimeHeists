@@ -70,7 +70,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 26);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Обновить";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // progressBar1
@@ -87,7 +87,7 @@
             this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(24, 23);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(335, 183);
+            this.webBrowser1.Size = new System.Drawing.Size(335, 195);
             this.webBrowser1.TabIndex = 3;
             this.webBrowser1.Url = new System.Uri("http://ya.ru", System.UriKind.Absolute);
             // 
@@ -206,10 +206,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(456, 330);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
